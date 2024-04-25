@@ -31,10 +31,14 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageWriteSettings",
 							"maxConcurrentConnections": 1,
-							"copyBehavior": "FlattenHierarchy"
+							"copyBehavior": {
+								"value": "@pipeline().Pipeline",
+								"type": "Expression"
+							}
 						},
 						"formatSettings": {
-							"type": "JsonWriteSettings"
+							"type": "JsonWriteSettings",
+							"filePattern": "arrayOfObjects"
 						}
 					},
 					"enableStaging": false
