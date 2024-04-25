@@ -1,0 +1,9 @@
+{
+	"name": "testmb",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "83ae49c9-e2fa-4eb7-a14f-68abf177f8d8",
+		"tenantId": "d1c719f7-cc48-4f9f-83ec-f706a2a940fe"
+	}
+}
