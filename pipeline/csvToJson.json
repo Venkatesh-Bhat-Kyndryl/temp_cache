@@ -51,7 +51,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "JsonFile",
 						"type": "DatasetReference"
 					}
 				]
